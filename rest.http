@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/auth HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Lautaro"
+}
+
+###
+DELETE http://localhost:3000/api/articles/62eea4663945e6428d4223a9 HTTP/1.1
+
+###
+DELETE http://localhost:3000/api/articles/62eea4663945e6428d4223a9 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkxhdXRhcm8iLCJpYXQiOjE2NTk4MDkxNDksImV4cCI6MTY1OTgxMDk0OX0.kYBwu9uT6ZEBDD1j7HwAckP12dSr-XrTgXmNPBexhNo
