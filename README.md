@@ -14,5 +14,5 @@ npm ci
 npm run dev
 ```
 
-# Caution
+## Caution ⛔
 It needs a mongodb database running on localhost:27107 otherwise it's going to timeout.
