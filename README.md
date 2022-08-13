@@ -14,6 +14,9 @@ npm ci
 npm run dev
 ```
 
+- The api is behind the route "/api"  
+- The frontend is behind the route "/react"
+
 ## Seed database
 ```
 npm run seed-db
