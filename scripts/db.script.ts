@@ -1,11 +1,11 @@
 import { IArticle } from '@app/interfaces/article.interface';
-import { createArticlesRepository } from '@app/models/article.model';
+import { createArticlesDataAccess } from '@app/models/article.model';
 import mongoose from 'mongoose';
 
 const seedDatabase = async () => {
     await mongoose.connect('mongodb://localhost');
 
-    const articleRepository = createArticlesRepository();
+    const articleRepository = createArticlesDataAccess();
 
     await articleRepository.deleteMany({});
     const article_npmBrokenByDesign: IArticle = {

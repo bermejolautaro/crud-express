@@ -9,5 +9,5 @@ const ArticleSchema = new mongoose.Schema({
     body: { type: String, required: true },
 }, { timestamps: true });
 
-export const createArticlesRepository = () => mongoose.model(ARTICLE_REF, ArticleSchema);
-export type ArticlesRepository = ReturnType<typeof createArticlesRepository>;
+export const createArticlesDataAccess = () => mongoose.model(ARTICLE_REF, ArticleSchema);
+export type ArticlesDataAccess = ReturnType<typeof createArticlesDataAccess>;

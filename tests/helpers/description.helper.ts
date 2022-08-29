@@ -1,0 +1,1 @@
+export const description = (...lines: string[]): string => lines.join(' ');
